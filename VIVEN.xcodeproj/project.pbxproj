@@ -13,9 +13,12 @@
 		6C4E2DEB2721D95C008B5C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4E2DE92721D95C008B5C20 /* Main.storyboard */; };
 		6C4E2DED2721D95F008B5C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4E2DEC2721D95F008B5C20 /* Assets.xcassets */; };
 		6C4E2DF02721D95F008B5C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4E2DEE2721D95F008B5C20 /* LaunchScreen.storyboard */; };
+		6C4E2DF92721DCCD008B5C20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C4E2DF82721DCCD008B5C20 /* GoogleService-Info.plist */; };
+		86591A8485918AB6B89E6DA2 /* Pods_VIVEN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3028E04D01EDC61CB1ADD7 /* Pods_VIVEN.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FEB3EC4D8FCB8BCF5E5295C /* Pods-VIVEN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIVEN.release.xcconfig"; path = "Target Support Files/Pods-VIVEN/Pods-VIVEN.release.xcconfig"; sourceTree = "<group>"; };
 		6C4E2DE02721D95C008B5C20 /* VIVEN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIVEN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4E2DE32721D95C008B5C20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C4E2DE52721D95C008B5C20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		6C4E2DEC2721D95F008B5C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C4E2DEF2721D95F008B5C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C4E2DF12721D95F008B5C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4E2DF82721DCCD008B5C20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C3FC6F01E906590696D9ABA2 /* Pods-VIVEN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIVEN.debug.xcconfig"; path = "Target Support Files/Pods-VIVEN/Pods-VIVEN.debug.xcconfig"; sourceTree = "<group>"; };
+		DE3028E04D01EDC61CB1ADD7 /* Pods_VIVEN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIVEN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86591A8485918AB6B89E6DA2 /* Pods_VIVEN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		558DA168189A5D92134B935F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE3028E04D01EDC61CB1ADD7 /* Pods_VIVEN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6C4E2DD72721D95C008B5C20 = {
 			isa = PBXGroup;
 			children = (
 				6C4E2DE22721D95C008B5C20 /* VIVEN */,
 				6C4E2DE12721D95C008B5C20 /* Products */,
+				E45B032B3708201DC0F5D4E5 /* Pods */,
+				558DA168189A5D92134B935F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,34 @@
 		6C4E2DE22721D95C008B5C20 /* VIVEN */ = {
 			isa = PBXGroup;
 			children = (
+				6C4E2DF72721DC64008B5C20 /* New Group */,
 				6C4E2DE32721D95C008B5C20 /* AppDelegate.swift */,
 				6C4E2DE52721D95C008B5C20 /* SceneDelegate.swift */,
 				6C4E2DE72721D95C008B5C20 /* ViewController.swift */,
+				6C4E2DF82721DCCD008B5C20 /* GoogleService-Info.plist */,
 				6C4E2DE92721D95C008B5C20 /* Main.storyboard */,
 				6C4E2DEC2721D95F008B5C20 /* Assets.xcassets */,
 				6C4E2DEE2721D95F008B5C20 /* LaunchScreen.storyboard */,
 				6C4E2DF12721D95F008B5C20 /* Info.plist */,
 			);
 			path = VIVEN;
+			sourceTree = "<group>";
+		};
+		6C4E2DF72721DC64008B5C20 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		E45B032B3708201DC0F5D4E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3FC6F01E906590696D9ABA2 /* Pods-VIVEN.debug.xcconfig */,
+				0FEB3EC4D8FCB8BCF5E5295C /* Pods-VIVEN.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C4E2DF42721D95F008B5C20 /* Build configuration list for PBXNativeTarget "VIVEN" */;
 			buildPhases = (
+				ECE9136B254F264499062218 /* [CP] Check Pods Manifest.lock */,
 				6C4E2DDC2721D95C008B5C20 /* Sources */,
 				6C4E2DDD2721D95C008B5C20 /* Frameworks */,
 				6C4E2DDE2721D95C008B5C20 /* Resources */,
+				7426A96AE2DF0C880440CF12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +165,54 @@
 			files = (
 				6C4E2DF02721D95F008B5C20 /* LaunchScreen.storyboard in Resources */,
 				6C4E2DED2721D95F008B5C20 /* Assets.xcassets in Resources */,
+				6C4E2DF92721DCCD008B5C20 /* GoogleService-Info.plist in Resources */,
 				6C4E2DEB2721D95C008B5C20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7426A96AE2DF0C880440CF12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIVEN/Pods-VIVEN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIVEN/Pods-VIVEN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VIVEN/Pods-VIVEN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE9136B254F264499062218 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIVEN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C4E2DDC2721D95C008B5C20 /* Sources */ = {
@@ -284,6 +365,7 @@
 		};
 		6C4E2DF52721D95F008B5C20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3FC6F01E906590696D9ABA2 /* Pods-VIVEN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,8 +376,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +395,7 @@
 		};
 		6C4E2DF62721D95F008B5C20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FEB3EC4D8FCB8BCF5E5295C /* Pods-VIVEN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,8 +406,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
